@@ -18,9 +18,9 @@ used computer : Apple M1 Pro 2021
 -    Flash Storage 1TB
 
 With this setting, the code can be run by the below structure of command line.
-'''python run_experiments.py [--instance map_file] [--obstacle obstacle] [--solver solving algorithm]'''
+```python run_experiments.py [--instance map_file] [--obstacle obstacle] [--solver solving algorithm]```
 For the arguments:
-'''
+```
 --instance [map_file_name]    : The name of the map instance file
 --obstacle [input]            : random – for generating the obstacle randomly
                               : obstacle_file_name – for running the submitted obstacle file
@@ -28,6 +28,6 @@ For the arguments:
                               : SIPP – for running SIPP algorithm
                               : weightedSIPP – for running WSIPPd algorithm
                               : AnytimeSIPP – for running AnytimeSIPP algorithm
-'''
+```
 To see the more descriptive explanation with argument:
-''' Python run_experiments.py –help '''
+``` Python run_experiments.py –help ```
