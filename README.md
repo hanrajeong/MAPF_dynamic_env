@@ -29,7 +29,7 @@ For the arguments:
                               : SIPP – for running SIPP algorithm
                               : weightedSIPP – for running WSIPPd algorithm
                               : AnytimeSIPP – for running AnytimeSIPP algorithm
-```. 
+```
 To see the more descriptive explanation with argument:
 ``` Python run_experiments.py –help ```
 
