@@ -1,10 +1,10 @@
-MAPF_dynamic_env
+MAPF_dynamic_env 
+  
+This is for the group project in SFU, CMPT417 course in Summer semester 2022.  
+The team member : Hanra Jeong, Jooyoung Julia Lee, Fitz Laddaran. 
 
-This is for the group project in SFU, CMPT417 course in Summer semester 2022.
-The team member : Hanra Jeong, Jooyoung Julia Lee, Fitz Laddaran
-
-The code is implemented in Python. Detail of the version for the environmental setting and the main computer that we used is described as below.
-
+The code is implemented in Python. Detail of the version for the environmental setting and the main computer that we used is described as below.  
+```
 Conda : 4.14.0 (for the virtual environment setting)
 Python version : Python 3.9.13
 ffmpeg version : 5.1 (for creating gif file)
@@ -16,8 +16,8 @@ used computer : Apple M1 Pro 2021
 -    16-core Neural Engine
 -    Memory 16 GB
 -    Flash Storage 1TB
-
-With this setting, the code can be run by the below structure of command line.
+```
+With this setting, the code can be run by the below structure of command line.  
 ```python run_experiments.py [--instance map_file] [--obstacle obstacle] [--solver solving algorithm]```
 For the arguments:
 ```
