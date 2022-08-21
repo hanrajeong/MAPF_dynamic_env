@@ -1,9 +1,9 @@
-#MAPF_dynamic_env 
+MAPF_dynamic_env 
   
-###This is for the group project in SFU, CMPT417 course in Summer semester 2022.  
-###The team member : Hanra Jeong, Jooyoung Julia Lee, Fitz Laddaran. 
+This is for the group project in SFU, CMPT417 course in Summer semester 2022.  
+The team member : Hanra Jeong, Jooyoung Julia Lee, Fitz Laddaran. 
 
-##Implementation environment
+Implementation environment
 ```
 Conda : 4.14.0 (for the virtual environment setting)
 Python version : Python 3.9.13
@@ -17,10 +17,10 @@ used computer : Apple M1 Pro 2021
 -    Memory 16 GB
 -    Flash Storage 1TB
 ```
-##Command line
 With this setting, the code can be run by the below structure of command line.  
 ```python run_experiments.py [--instance map_file] [--obstacle obstacle] [--solver solving algorithm]``` 
-###For the arguments:
+
+For the arguments:
 ```
 --instance [map_file_name]    : The name of the map instance file
 --obstacle [input]            : random – for generating the obstacle randomly
@@ -29,6 +29,6 @@ With this setting, the code can be run by the below structure of command line.
                               : SIPP – for running SIPP algorithm
                               : weightedSIPP – for running WSIPPd algorithm
                               : AnytimeSIPP – for running AnytimeSIPP algorithm
-``` 
+```. 
 To see the more descriptive explanation with argument:
 ``` Python run_experiments.py –help ```
