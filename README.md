@@ -39,3 +39,10 @@ With an interest in the autonomy of modern automobiles and intelligent robots wi
 Introduction  
 As we implemented in the individual project with A*, Prioritized, CBS algorithms, Multi-agent path finding (MAPF) is important challenge for many applications under static environment. However, in a real-life, for autonomous car, robotic vacuum, or the automated warehousing robots to safely achieve their goals, they need to navigate from the starting to the goal state in the presence of other moving obstacles like human or other robots. For adopting the dynamic obstacles, we need to predict their paths and locations and adopt this to find the optimal path of target agent.  
 Safe Interval Path Planning (SIPP) algorithm was proposed to solve this [1] which is known as complete and returning optimal solutions. However, for this SIPP algorithm, to get the solution faster, we need to trade off the solution optimality. [2] To minimize this and get the better optimal solution, a bounded-suboptimal SIPP algorithm is introduced. [3]
+
+Reference
+
+[1] Phillips, M., & Likhachev, M. (2011, May 1). SIPP: Safe interval path planning for dynamic environments. IEEE Xplore. https://doi.org/10.1109/ICRA.2011.5980306  
+[2] Yakovlev, Konstantin & Andreychuk, Anton & Stern, Roni. (2020). Revisiting Bounded-Suboptimal Safe Interval Path Planning. https://doi.org/10.48550/arXiv.2006.01195  
+[3] Sepetnitsky, V.; Felner, A.; and Stern, R. 2016. Repair policies for not reopening nodes in different search settings. In Symposium on Combi- natorial Search (SOCS), 81–88.   
+
