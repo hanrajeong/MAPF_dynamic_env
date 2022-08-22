@@ -14,6 +14,9 @@ from random_agents_generator import random_generator
 
 SOLVER = "Anytime_SIPP"
 
+# The original code is given for the individual project in CMPT417 course
+# This is modified version of it to implement the SIPP algorithms
+
 def import_mapf_instance(filename):
     f = Path(filename)
     if not f.is_file():
@@ -142,6 +145,8 @@ class Map:
                 movements.append((i + d[0], j + d[1]))
         return movements
 
+    # # Phillips, M., Likhachev, M. (2011, May 1). SIPP: Safe interval path planning for dynamic environments. IEEE Xplore. https://doi.org/10.1109/ICRA.2011.5980306
+    
     def successors(self, node):
         # successors = 0
         successors = []
@@ -185,6 +190,12 @@ class Map:
                 paths.append((previous.r, previous.c))
         paths.append((path[-1].r, path[-1].c))
         return paths
+
+    # Referred are linked below:
+    # https://www.aaai.org/AAAI22Papers/AAAI-2389.LiJ.pdf
+    # Phillips, M., Likhachev, M. (2011, May 1). SIPP: Safe interval path planning for dynamic environments. IEEE Xplore. https://doi.org/10.1109/ICRA.2011.5980306
+    # Narayanan, V., Phillips, M., Likhachev, M. (2012). Anytime Safe Interval Path Planning for dynamic environments.2012 IEEE/RSJ International Conference on Intelligent Robots and Systems. https://doi.org/10.1109/iros.2012.6386191
+    # Artser, E. (n.d.). Eartser/Sipp-MAPF: Prioritized multi-agent path finding using safe interval path planning (SIPP) and modifications. GitHub. Retrieved August 20, 2022, from https://github.com/eartser/sipp-mapf
 
     def dynamic_environment(self, obstacle_paths):
         # print("dynamic")
